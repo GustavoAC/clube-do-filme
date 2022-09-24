@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+.entreAbelhas {
+  background-image: url('./data/imgs/bgs/cute-cartoon-bumble-bee-dandelion-wine-doodles-seamless-border-pattern-summer-vector-repeatable-background-texture-tile-cozy-template-stock-print-wrapping-design-wallpaper_44769-2555.jpg');
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.entreAbelhas .picture {
+  border-color: yellow black !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.entreAbelhas .header {
+  background: yellow;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.entreAbelhas .score {
+  background-color: yellow;
 }
-
-.App-link {
-  color: #61dafb;
+.entreAbelhas .submitter > * {
+  background: yellow;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.timelapse {
+  background-image: url('./data/imgs/bgs/clock-pattern-background-thumb24.jpg');
+}
+.timelapse .picture {
+  border-color: green darkgreen !important;
+}
+.timelapse .header {
+  background: green;
+  color: whitesmoke;
+}
+.timelapse .score {
+  background-color: green;
+  border-color: whitesmoke !important;
+  color: whitesmoke;
+}
+.timelapse .submitter > * {
+  background: green;
+  color: whitesmoke;
 }
