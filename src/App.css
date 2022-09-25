@@ -32,3 +32,138 @@
   background: green;
   color: whitesmoke;
 }
+.sorryToBotherYou {
+  background: linear-gradient(purple, #d3065d);
+}
+.sorryToBotherYou .picture {
+  border-color: purple black !important;
+}
+.sorryToBotherYou .header {
+  color: whitesmoke;
+}
+.sorryToBotherYou .score {
+  border-color: whitesmoke !important;
+  color: whitesmoke;
+}
+.sorryToBotherYou .submitter > * {
+  color: whitesmoke;
+}
+.mulhollandDrive {
+  background-image: url('./data/imgs/bgs/bgbubble.png');
+}
+.mulhollandDrive .picture {
+  border-color: purple black !important;
+}
+.mulhollandDrive .header {
+  color: whitesmoke;
+}
+.mulhollandDrive .score {
+  background: whitesmoke;
+  border-color: purple !important;
+  color: purple;
+}
+.mulhollandDrive .submitter > * {
+  color: whitesmoke;
+}
+.requiem {
+  background: repeating-linear-gradient(pink, white 10%, pink 20%);
+}
+.requiem .picture {
+  border-color: pink pink !important;
+}
+.requiem .score {
+  background: whitesmoke;
+  border-color: #695054 !important;
+  color: #695054;
+}
+.requiem .submitter > * {
+  color: #695054;
+}
+.rrr {
+  background: linear-gradient(orange, white, green);
+}
+.rrr .picture {
+  border-color: orange green !important;
+}
+.rrr .score {
+  background: whitesmoke;
+  border-color: green !important;
+  color: green;
+}
+.rrr .submitter > * {
+  color: black;
+}
+.lisbelaEOPrisioneiro {
+  background-image: url('./data/imgs/bgs/bgheart.gif');
+}
+.lisbelaEOPrisioneiro .picture {
+  border-color: beige bisque !important;
+}
+.lisbelaEOPrisioneiro .header {
+  color: whitesmoke;
+}
+.lisbelaEOPrisioneiro .score {
+  background: whitesmoke;
+  border-color: #7c0428 !important;
+  color: #7c0428;
+}
+.lisbelaEOPrisioneiro .submitter > * {
+  color: whitesmoke;
+}
+.mononoke {
+  background-image: url('./data/imgs/bgs/bgforest.png');
+}
+.mononoke .picture {
+  border-color: red white !important;
+}
+.mononoke .header {
+  color: whitesmoke;
+}
+.mononoke .score {
+  background: whitesmoke;
+  border-color: #7c0428 !important;
+  color: #7c0428;
+}
+.mononoke .submitter > * {
+  color: whitesmoke;
+}
+.tomNaFazenda {
+  background: linear-gradient(#d1d1b4, black 60%);
+}
+.tomNaFazenda .picture {
+  border-color: black !important;
+}
+.tomNaFazenda .header {
+  color: black;
+}
+.tomNaFazenda .score {
+  background: whitesmoke;
+  color: black;
+}
+.tomNaFazenda .submitter > * {
+  color: whitesmoke;
+}
+.tudotudo {
+  background-image: url('./data/imgs/bgs/bgstar.png');
+}
+.tudotudo .picture {
+  border-color: green mediumseagreen !important;
+}
+.tudotudo .header {
+  color: white;
+}
+.tudotudo .score {
+  border-color: mediumseagreen !important;
+  background: white;
+  color: black;
+}
+.tudotudo .submitter > * {
+  color: whitesmoke;
+}
+.audioButton {
+  position: absolute;
+  z-index: 100;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+}

@@ -2,6 +2,14 @@ import { Movie } from "../views/MovieView/MovieView";
 
 import entreAbelhasImg from './imgs/entre-abelhas.jpeg';
 import timelapseImg from './imgs/lapso-de-tempo.jpeg';
+import sorryImg from './imgs/sorry.jpeg';
+import requiemImg from './imgs/requien.jpg';
+import mulhollandImg from './imgs/mulholland.jpeg';
+import rrrImg from './imgs/rrr.jpg';
+import lisbelaImg from './imgs/lisbela.jpg';
+import mononokeImg from './imgs/mononoke.webp';
+import tomImg from './imgs/tom.jpg';
+import tudoImg from './imgs/tudotudo.webp';
 
 import abelhaGif1 from './gifs/entreabelhas/abelha.gif';
 import abelhaGif2 from './gifs/entreabelhas/backdoor.gif';
@@ -18,10 +26,72 @@ import timelapseGif4 from './gifs/timelapse/pintor.gif';
 import timelapseGif5 from './gifs/timelapse/profissao076.gif';
 import timelapseGif6 from './gifs/timelapse/timebanner.gif';
 
+import sorryGif1 from './gifs/sorry to bother/7.gif';
+import sorryGif2 from './gifs/sorry to bother/Banner32.gif';
+import sorryGif3 from './gifs/sorry to bother/can.gif';
+import sorryGif4 from './gifs/sorry to bother/horse.gif';
+import sorryGif5 from './gifs/sorry to bother/minotauro_01.gif';
+import sorryGif6 from './gifs/sorry to bother/money.gif';
+import sorryGif7 from './gifs/sorry to bother/phone.gif';
+
+import mulhollandGif1 from './gifs/mulholland/camera.gif';
+import mulhollandGif2 from './gifs/mulholland/camera2.gif';
+import mulhollandGif3 from './gifs/mulholland/cameraoy.gif';
+import mulhollandGif4 from './gifs/mulholland/CINEDIRECTOR.gif';
+import mulhollandGif5 from './gifs/mulholland/giphy.gif';
+import mulhollandGif6 from './gifs/mulholland/key.gif';
+import mulhollandGif7 from './gifs/mulholland/sleeping.gif';
+import mulhollandGif8 from './gifs/mulholland/sweetdream.gif';
+
+import requiemGif1 from './gifs/requiem/21.gif';
+import requiemGif2 from './gifs/requiem/needle11a.gif';
+import requiemGif3 from './gifs/requiem/noDrugs.gif';
+import requiemGif4 from './gifs/requiem/pills.gif';
+import requiemGif5 from './gifs/requiem/pills2.gif';
+import requiemGif6 from './gifs/requiem/Superpsychologo.gif';
+
+import rrrGif1 from './gifs/rrr/51.gif';
+import rrrGif2 from './gifs/rrr/52.gif';
+import rrrGif3 from './gifs/rrr/Explosion.gif';
+import rrrGif4 from './gifs/rrr/flagindia.gif';
+import rrrGif5 from './gifs/rrr/FRENZHUG.gif';
+import rrrGif6 from './gifs/rrr/pessoa26.gif';
+import rrrGif7 from './gifs/rrr/tiger6.gif';
+
+import lisbelaGif1 from './gifs/lisbela/amooor.gif';
+import lisbelaGif2 from './gifs/lisbela/br.gif';
+import lisbelaGif3 from './gifs/lisbela/cowboy.gif';
+import lisbelaGif4 from './gifs/lisbela/married.gif';
+import lisbelaGif5 from './gifs/lisbela/musica87.gif';
+import lisbelaGif6 from './gifs/lisbela/zeppelin1.gif';
+
+import mononokeGif1 from './gifs/mononoke/action.gif';
+import mononokeGif2 from './gifs/mononoke/archer.gif';
+import mononokeGif3 from './gifs/mononoke/jjsb001.gif';
+import mononokeGif4 from './gifs/mononoke/kodamani.gif';
+import mononokeGif5 from './gifs/mononoke/mononoke.gif';
+import mononokeGif6 from './gifs/mononoke/pig1.gif';
+import mononokeGif7 from './gifs/mononoke/zelda2.gif';
+
+import tomnafazendaGif1 from './gifs/tomnafazenda/bigcry.gif';
+import tomnafazendaGif2 from './gifs/tomnafazenda/canada.gif';
+import tomnafazendaGif3 from './gifs/tomnafazenda/cow-dancing.gif';
+import tomnafazendaGif4 from './gifs/tomnafazenda/farmer.gif';
+import tomnafazendaGif5 from './gifs/tomnafazenda/lovers.gif';
+import tomnafazendaGif6 from './gifs/tomnafazenda/profissao095.gif';
+
+import tudotudoGif1 from './gifs/tudotudo/donutani.gif';
+import tudotudoGif2 from './gifs/tudotudo/engracado62.gif';
+import tudotudoGif3 from './gifs/tudotudo/googly.gif';
+import tudotudoGif4 from './gifs/tudotudo/kaleido.gif';
+import tudotudoGif5 from './gifs/tudotudo/Kungfu.gif';
+import tudotudoGif6 from './gifs/tudotudo/uni.gif';
+import tudotudoGif7 from './gifs/tudotudo/vida.gif';
+
 const entreAbelhas: Movie = {
     className: 'entreAbelhas',
     mainImage: entreAbelhasImg,
-    position: 1,
+    position: 0,
     score: 10,
     submitter: "Yuri Alessandro",
     title: "Entre Abelhas",
@@ -39,8 +109,8 @@ const entreAbelhas: Movie = {
 const timelapse: Movie = {
     className: 'timelapse',
     mainImage: timelapseImg,
-    position: 1,
-    score: 10,
+    position: 0,
+    score: 9,
     submitter: "Lucas Limeira",
     title: "Lapso Temporal",
     gifs: [
@@ -53,9 +123,159 @@ const timelapse: Movie = {
     ]
 }
 
+const sorryToBotherYou: Movie = {
+    className: 'sorryToBotherYou',
+    mainImage: sorryImg,
+    position: 0,
+    score: 10,
+    submitter: "Gabriel Azevedo",
+    title: "Desculpe te Incomodar",
+    gifs: [
+        { url: sorryGif1, posTop: '20', posLeft: '10', height: '10' },
+        { url: sorryGif2, posTop: '60', posLeft: '5' },
+        { url: sorryGif3, posTop: '23', posLeft: '30', height: '12' },
+        { url: sorryGif4, posTop: '18', posLeft: '82' },
+        { url: sorryGif5, posTop: '40', posLeft: '12' },
+        { url: sorryGif6, posTop: '40', posLeft: '83' },
+        { url: sorryGif7, posTop: '62', posLeft: '80' },
+    ]
+}
+
+const mulhollandDrive: Movie = {
+    className: 'mulhollandDrive',
+    mainImage: mulhollandImg,
+    position: 0,
+    score: 10,
+    submitter: "Thiago César",
+    title: "Mulholland Drive",
+    gifs: [
+        { url: mulhollandGif1, posTop: '20', posLeft: '80', height: '12' },
+        { url: mulhollandGif2, posTop: '60', posLeft: '5' },
+        { url: mulhollandGif3, posTop: '40', posLeft: '10', height: '12' },
+        { url: mulhollandGif4, posTop: '18', posLeft: '10' },
+        { url: mulhollandGif5, posTop: '50', posLeft: '45', height: '12' },
+        { url: mulhollandGif6, posTop: '35', posLeft: '73' },
+        { url: mulhollandGif7, posTop: '65', posLeft: '50' },
+        { url: mulhollandGif8, posTop: '62', posLeft: '80' },
+    ]
+}
+
+const requiem: Movie = {
+    className: 'requiem',
+    mainImage: requiemImg,
+    position: 0,
+    score: 10,
+    submitter: "Vanessa",
+    title: "Requiem para um sonho",
+    gifs: [
+        { url: requiemGif1, posTop: '20', posLeft: '10', height: '10' },
+        { url: requiemGif2, posTop: '60', posLeft: '5' },
+        { url: requiemGif3, posTop: '40', posLeft: '10', height: '12' },
+        { url: requiemGif4, posTop: '18', posLeft: '82' },
+        { url: requiemGif5, posTop: '55', posLeft: '62' },
+        { url: requiemGif6, posTop: '35', posLeft: '73' },
+    ]
+}
+
+const rrr: Movie = {
+    className: 'rrr',
+    mainImage: rrrImg,
+    position: 0,
+    score: 10,
+    submitter: "Gustavo",
+    title: "RRR",
+    gifs: [
+        { url: rrrGif1, posTop: '20', posLeft: '10', height: '10' },
+        { url: rrrGif2, posTop: '60', posLeft: '5' },
+        { url: rrrGif3, posTop: '40', posLeft: '10', height: '12' },
+        { url: rrrGif4, posTop: '18', posLeft: '72' },
+        { url: rrrGif5, posTop: '55', posLeft: '82' },
+        { url: rrrGif6, posTop: '35', posLeft: '73' },
+        { url: rrrGif7, posTop: '44', posLeft: '45' },
+    ]
+}
+
+const lisbelaEOPrisioneiro: Movie = {
+    className: 'lisbelaEOPrisioneiro',
+    mainImage: lisbelaImg,
+    position: 0,
+    score: 10,
+    submitter: "Esther",
+    title: "Lisbela e o Prisioneiro",
+    gifs: [
+        { url: lisbelaGif1, posTop: '20', posLeft: '10', height: '10' },
+        { url: lisbelaGif2, posTop: '60', posLeft: '5' },
+        { url: lisbelaGif3, posTop: '40', posLeft: '10', height: '12' },
+        { url: lisbelaGif4, posTop: '18', posLeft: '82' },
+        { url: lisbelaGif5, posTop: '55', posLeft: '82' },
+        { url: lisbelaGif6, posTop: '35', posLeft: '73' },
+    ]
+}
+
+const mononoke: Movie = {
+    className: 'mononoke',
+    mainImage: mononokeImg,
+    position: 0,
+    score: 10,
+    submitter: "Pedro Arthur",
+    title: "Princesa Mononoke",
+    gifs: [
+        { url: mononokeGif1, posTop: '20', posLeft: '2' },
+        { url: mononokeGif2, posTop: '60', posLeft: '80', height: '20' },
+        { url: mononokeGif3, posTop: '70', posLeft: '30' },
+        { url: mononokeGif4, posTop: '28', posLeft: '82', height: '10' },
+        { url: mononokeGif5, posTop: '30', posLeft: '6', height: '15' },
+        { url: mononokeGif6, posTop: '45', posLeft: '79', height: '8' },
+        { url: mononokeGif7, posTop: '64', posLeft: '12' },
+    ]
+}
+
+const tomNaFazenda: Movie = {
+    className: 'tomNaFazenda',
+    mainImage: tomImg,
+    position: 0,
+    score: 10,
+    submitter: "Gabriel Sebastian",
+    title: "Tom na Fazenda",
+    gifs: [
+        { url: tomnafazendaGif1, posTop: '60', posLeft: '82', height: '10' },
+        { url: tomnafazendaGif2, posTop: '50', posLeft: '5' },
+        { url: tomnafazendaGif3, posTop: '30', posLeft: '10', height: '12' },
+        { url: tomnafazendaGif4, posTop: '18', posLeft: '82' },
+        { url: tomnafazendaGif5, posTop: '20', posLeft: '20' },
+        { url: tomnafazendaGif6, posTop: '35', posLeft: '83' },
+    ]
+}
+
+const tudotudo: Movie = {
+    className: 'tudotudo',
+    mainImage: tudoImg,
+    position: 0,
+    score: 10,
+    submitter: "A Consciência Coletiva",
+    title: "Tudo em Todo Lugar ao Mesmo Tempo",
+    gifs: [
+        { url: tudotudoGif1, posTop: '20', posLeft: '12' },
+        { url: tudotudoGif2, posTop: '60', posLeft: '82', height: '18' },
+        { url: tudotudoGif3, posTop: '70', posLeft: '30' },
+        { url: tudotudoGif4, posTop: '28', posLeft: '82', height: '10' },
+        { url: tudotudoGif5, posTop: '35', posLeft: '10', height: '15' },
+        { url: tudotudoGif6, posTop: '45', posLeft: '79', height: '15' },
+        { url: tudotudoGif7, posTop: '64', posLeft: '12' },
+    ]
+}
+
 const movies = {
     entreAbelhas,
-    timelapse
+    timelapse,
+    sorryToBotherYou,
+    mulhollandDrive,
+    requiem,
+    rrr,
+    lisbelaEOPrisioneiro,
+    mononoke,
+    tomNaFazenda,
+    tudotudo
 };
 
 export default movies;
