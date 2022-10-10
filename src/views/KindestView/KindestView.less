@@ -1,0 +1,89 @@
+.kindestView {
+    font-family: 'Times New Roman';
+    color: rgb(240, 87, 87);
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    height: 130vh;
+    width: 100%;
+    background: rgb(228, 186, 186);
+    animation-name: pulse;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+    .header {
+        font-weight: 700;
+        display: flex;
+        font-size: 72px;
+        padding: 100px 0;
+    }
+
+    table {
+        animation-name: rainbow;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        font-size: 32px;
+        min-width: 50%;
+    }
+
+    table, td, tr, th {
+        border: solid 1px black;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        background-color: rgb(228, 186, 186);
+    }
+
+    50% {
+        background-color: rgb(216, 161, 161);
+    }
+
+    100% {
+        background-color: rgb(228, 186, 186);
+    }
+}
+
+@keyframes rainbow{
+    100%,0%{
+        color: rgb(255,0,0);
+        background-color: rgb(228, 186, 186);
+    }
+    8%{
+        color: rgb(255,127,0);
+    }
+    16%{
+        color: rgb(255,255,0);
+    }
+    25%{
+        color: rgb(127,255,0);
+    }
+    33%{
+        color: rgb(0,255,0);
+    }
+    41%{
+        color: rgb(0,255,127);
+    }
+    50%{
+        color: rgb(0,255,255);
+        background-color: rgb(216, 161, 161);
+    }
+    58%{
+        color: rgb(0,127,255);
+    }
+    66%{
+        color: rgb(0,0,255);
+    }
+    75%{
+        color: rgb(127,0,255);
+    }
+    83%{
+        color: rgb(255,0,255);
+    }
+    91%{
+        color: rgb(255,0,127);
+    }
+}

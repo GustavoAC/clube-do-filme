@@ -3,7 +3,7 @@ import React from 'react'
 import number0 from './numbers/0.gif';
 import number1 from './numbers/1.gif';
 import number2 from './numbers/2.gif';
-import number3 from './numbers/n3.gif';
+import number3 from './numbers/gifnumero3.gif';
 import number4 from './numbers/4.gif';
 import number5 from './numbers/5.gif';
 import number6 from './numbers/6.gif';

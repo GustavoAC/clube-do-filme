@@ -9,7 +9,7 @@ import rrrImg from './imgs/rrr.jpg';
 import lisbelaImg from './imgs/lisbela.jpg';
 import mononokeImg from './imgs/mononoke.webp';
 import tomImg from './imgs/tom.jpg';
-import tudoImg from './imgs/tudotudo.webp';
+import voyeursImg from './imgs/voyeurs.jpg';
 
 import abelhaGif1 from './gifs/entreabelhas/abelha.gif';
 import abelhaGif2 from './gifs/entreabelhas/backdoor.gif';
@@ -80,19 +80,18 @@ import tomnafazendaGif4 from './gifs/tomnafazenda/farmer.gif';
 import tomnafazendaGif5 from './gifs/tomnafazenda/lovers.gif';
 import tomnafazendaGif6 from './gifs/tomnafazenda/profissao095.gif';
 
-import tudotudoGif1 from './gifs/tudotudo/donutani.gif';
-import tudotudoGif2 from './gifs/tudotudo/engracado62.gif';
-import tudotudoGif3 from './gifs/tudotudo/googly.gif';
-import tudotudoGif4 from './gifs/tudotudo/kaleido.gif';
-import tudotudoGif5 from './gifs/tudotudo/Kungfu.gif';
-import tudotudoGif6 from './gifs/tudotudo/uni.gif';
-import tudotudoGif7 from './gifs/tudotudo/vida.gif';
+import voyeursGif1 from './gifs/voyeurs/blinkeye.gif';
+import voyeursGif2 from './gifs/voyeurs/egg.gif';
+import voyeursGif3 from './gifs/voyeurs/laserani3.gif';
+import voyeursGif4 from './gifs/voyeurs/thief.webp';
+import voyeursGif5 from './gifs/voyeurs/voyeur.gif';
+import voyeursGif6 from './gifs/voyeurs/voyeurcam.gif';
 
 const entreAbelhas: Movie = {
     className: 'entreAbelhas',
     mainImage: entreAbelhasImg,
     position: 0,
-    score: 10,
+    scores: [6, 7, 8, 8, 8, 8, 9],
     submitter: "Yuri Alessandro",
     title: "Entre Abelhas",
     gifs: [
@@ -110,7 +109,7 @@ const timelapse: Movie = {
     className: 'timelapse',
     mainImage: timelapseImg,
     position: 0,
-    score: 9,
+    scores: [6, 6, 7, 7, 7, 8, 8, 8, 8],
     submitter: "Lucas Limeira",
     title: "Lapso Temporal",
     gifs: [
@@ -127,7 +126,7 @@ const sorryToBotherYou: Movie = {
     className: 'sorryToBotherYou',
     mainImage: sorryImg,
     position: 0,
-    score: 10,
+    scores: [6, 7, 8, 9, 10, 10, 10],
     submitter: "Gabriel Azevedo",
     title: "Desculpe te Incomodar",
     gifs: [
@@ -145,7 +144,7 @@ const mulhollandDrive: Movie = {
     className: 'mulhollandDrive',
     mainImage: mulhollandImg,
     position: 0,
-    score: 10,
+    scores: [3, 6, 6, 7, 8, 9],
     submitter: "Thiago César",
     title: "Mulholland Drive",
     gifs: [
@@ -164,7 +163,7 @@ const requiem: Movie = {
     className: 'requiem',
     mainImage: requiemImg,
     position: 0,
-    score: 10,
+    scores: [7, 8, 8, 9, 9, 9, 10],
     submitter: "Vanessa",
     title: "Requiem para um sonho",
     gifs: [
@@ -181,7 +180,7 @@ const rrr: Movie = {
     className: 'rrr',
     mainImage: rrrImg,
     position: 0,
-    score: 10,
+    scores: [6, 7, 7, 7, 8, 9, 10, 10],
     submitter: "Gustavo",
     title: "RRR",
     gifs: [
@@ -199,7 +198,7 @@ const lisbelaEOPrisioneiro: Movie = {
     className: 'lisbelaEOPrisioneiro',
     mainImage: lisbelaImg,
     position: 0,
-    score: 10,
+    scores: [8, 8, 9, 10, 10, 10, 10, 10, 10],
     submitter: "Esther",
     title: "Lisbela e o Prisioneiro",
     gifs: [
@@ -216,7 +215,7 @@ const mononoke: Movie = {
     className: 'mononoke',
     mainImage: mononokeImg,
     position: 0,
-    score: 10,
+    scores: [5, 6, 7, 7, 8, 8, 8, 9, 10],
     submitter: "Pedro Arthur",
     title: "Princesa Mononoke",
     gifs: [
@@ -234,7 +233,7 @@ const tomNaFazenda: Movie = {
     className: 'tomNaFazenda',
     mainImage: tomImg,
     position: 0,
-    score: 10,
+    scores: [7, 7, 7, 8, 8, 9],
     submitter: "Gabriel Sebastian",
     title: "Tom na Fazenda",
     gifs: [
@@ -247,21 +246,20 @@ const tomNaFazenda: Movie = {
     ]
 }
 
-const tudotudo: Movie = {
-    className: 'tudotudo',
-    mainImage: tudoImg,
+const voyeurs: Movie = {
+    className: 'voyeurs',
+    mainImage: voyeursImg,
     position: 0,
-    score: 10,
-    submitter: "A Consciência Coletiva",
-    title: "Tudo em Todo Lugar ao Mesmo Tempo",
+    scores: [7, 7, 8, 8, 8, 9, 9, 10],
+    submitter: "Márcia",
+    title: "The Voyeurs",
     gifs: [
-        { url: tudotudoGif1, posTop: '20', posLeft: '12' },
-        { url: tudotudoGif2, posTop: '60', posLeft: '82', height: '18' },
-        { url: tudotudoGif3, posTop: '70', posLeft: '30' },
-        { url: tudotudoGif4, posTop: '28', posLeft: '82', height: '10' },
-        { url: tudotudoGif5, posTop: '35', posLeft: '10', height: '15' },
-        { url: tudotudoGif6, posTop: '45', posLeft: '79', height: '15' },
-        { url: tudotudoGif7, posTop: '64', posLeft: '12' },
+        { url: voyeursGif1, posTop: '20', posLeft: '12' },
+        { url: voyeursGif2, posTop: '60', posLeft: '82', height: '18' },
+        { url: voyeursGif3, posTop: '70', posLeft: '30' },
+        { url: voyeursGif4, posTop: '28', posLeft: '82', height: '10' },
+        { url: voyeursGif5, posTop: '35', posLeft: '10', height: '15' },
+        { url: voyeursGif6, posTop: '45', posLeft: '79', height: '15' },
     ]
 }
 
@@ -275,7 +273,7 @@ const movies = {
     lisbelaEOPrisioneiro,
     mononoke,
     tomNaFazenda,
-    tudotudo
+    voyeurs
 };
 
 export default movies;

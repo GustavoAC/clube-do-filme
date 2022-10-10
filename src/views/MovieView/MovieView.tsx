@@ -9,7 +9,7 @@ export type Movie = {
   title: string;
   mainImage: string;
   submitter: string; 
-  score: number;
+  scores: number[];
   gifs: {
     url: string;
     posTop: string;
@@ -18,7 +18,9 @@ export type Movie = {
   }[];
 }
 
-const MovieView: React.FC<Movie> = ({className, position, title, mainImage, submitter, score, gifs}) => {
+const MovieView: React.FC<Movie> = ({className, position, title, mainImage, submitter, scores, gifs}) => {
+  const score = Math.round(scores.reduce((a, b) => a + b, 0) / scores.length * 100) / 100;
+
   return (
     <div className={`movieView ${className}`}>
       <div className='gifLayer'>

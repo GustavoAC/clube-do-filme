@@ -1,0 +1,41 @@
+.memoirView {
+    font-family: 'Times New Roman';
+    color: white;
+    background: black;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    height: 130vh;
+    width: 100%;
+
+    .header {
+        font-weight: 700;
+        display: flex;
+        font-size: 72px;
+        padding: 100px 0;
+    }
+
+    .headstones {
+        display: flex;
+        gap: 250px;
+        font-size: 32px;
+        align-items: flex-end;
+        margin: 2% 0;
+        > div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+        img {
+            max-height: 300px;
+        }
+    }
+
+    .rip {
+        margin-top: 6%;
+        font-size: 120px;
+    }
+}
